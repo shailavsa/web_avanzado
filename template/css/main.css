@@ -2,6 +2,9 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i");
 
+/*sistem grid*/
+@import url("lib/grid.css");
+
 /* Generals */
 @import url("lib/normalize.css");
 
@@ -15,6 +18,10 @@ body{
 ul, ol {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
 }
 /* Header */
 
@@ -27,3 +34,37 @@ ul, ol {
 /* Footer */
 
 /* Helpers */
+.clearfix:before,
+.clearfix:after{
+    content:"";
+    display: block;
+}
+.clearfix:after{
+    clear: both;
+}
+.margin-top,
+.mt{
+   margin-top: 65px;
+}
+.margin-botton,
+.mb{
+    margin-bottom: 65px;
+}
+.margin-vertical,
+.mv{
+    margin-top:65px;
+    margin-bottom: 65px;
+}
+.padding-top,
+.pt{
+   padding-top: 65px;
+}
+.padding-botton,
+.pb{
+    padding-bottom: 65px;
+}
+.padding-vertical,
+.pv{
+    padding-top:65px;
+    padding-bottom: 65px;
+}

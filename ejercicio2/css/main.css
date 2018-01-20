@@ -1,0 +1,151 @@
+@charset "UTF-8";   
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i");
+
+/* Generals */
+@import url("lib/normalize.css");
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+/* Header */
+
+/* Nav */
+
+/* Main */
+.page-main h2:first-child,
+.page-main p:first-child{
+    margin-top: 0;
+}
+
+/* Section */
+
+/* Footer */
+
+/*Grid*/
+@media (min-width:768px){
+   .col{
+       float:left;
+       padding-left: 16px;
+       box-sizing: border-box;
+   }
+   .row{
+    margin-left: -16px;
+}
+.row:before,
+.row:after{
+    content: "";
+    display:block;
+}
+.row:after{
+    clear: both;
+}
+   .tb-col-1 {
+       width: 8.33%;
+   }
+   .tb-col-2 {
+       width: 16.66%;
+   }
+   .tb-col-3 {
+       width: 25%;
+   }
+   .tb-col-4 { 
+       width: 33.33%;
+   }
+   .tb-col-5 {
+       width: 41.66%;
+   }
+   .tb-col-6 {
+       width: 50%;
+   }
+   .tb-col-7 {
+       width: 58.33%;
+   }
+   .tb-col-8 {
+       width: 66.66%;
+   }
+   .tb-col-9 {
+       width: 75%;
+   }
+   .tb-col-10 {
+       width: 83.33%;
+   }
+   .tb-col-11 {
+       width: 91.66%;
+   }
+}
+@media (min-width:962px){
+    .dk-col-1 {
+        width: 8.33%;
+    }
+    .dk-col-2 {
+        width: 16.66%;
+    }
+    .dk-col-3 {
+        width: 25%;
+    }
+    .dk-col-4 { 
+        width: 33.33%;
+    }
+    .dk-col-5 {
+        width: 41.66%;
+    }
+    .dk-col-6 {
+        width: 50%;
+    }
+    .dk-col-7 {
+        width: 58.33%;
+    }
+    .dk-col-8 {
+        width: 66.66%;
+    }
+    .dk-col-9 {
+        width: 75%;
+    }
+    .dk-col-10 {
+        width: 83.33%;
+    }
+    .dk-col-11 {
+        width: 91.66%;
+    }
+}
+
+/* Helpers */
+.margin-top,
+.mt{
+   margin-top: 65px;
+}
+.margin-botton,
+.mb{
+    margin-bottom: 65px;
+}
+.margin-vertical,
+.mv{
+    margin-top:65px;
+    margin-bottom: 65px;
+}
+.padding-top,
+.pt{
+   padding-top: 65px;
+}
+.padding-botton,
+.pb{
+    padding-bottom: 65px;
+}
+.padding-vertical,
+.pv{
+    padding-top:65px;
+    padding-bottom: 65px;
+}
