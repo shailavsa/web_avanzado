@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="page-header">
+            <div class="container">
+                <h1>Tabla de calificaciones</h1>
+            </div>
+        </header>
+        <nav class="page-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#" class="active">Alumnos</a></li>
+                    <li><a href="#">Profesores</a></li>
+                    <li><a href="#">Sucursales</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="page-main">
+            <section class="page-section">
+                <div class="container">
+                    <h2>Sección 1</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Curso</th>
+                                <th>Calificación</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Promedio</td>
+                                <td id="promedio">0</td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>Sergio</td>
+                                <td>Pérez Gómez</td>
+                                <td>Web Avanzado</td>
+                                <td class="calificacion">8.9</td>
+                            </tr>
+                            <tr>
+                                <td>Aldo</td>
+                                <td>Barrios</td>
+                                <td>Web Avanzado</td>
+                                <td class="calificacion">10</td>
+                            </tr>
+                            <tr>
+                                <td>Nayely</td>
+                                <td>Meneses Barrera</td>
+                                <td>Web Avanzado</td>
+                                <td class="calificacion">9</td>
+                            </tr>
+                            <tr>
+                                <td>Shaila</td>
+                                <td>Sanchez Álvarez</td>
+                                <td>Web Avanzado</td>
+                                <td class="calificacion">9</td>
+                            </tr>
+                            <tr>
+                                <td>Fernanda</td>
+                                <td>Sierra Sequelis</td>
+                                <td>Diplomado Web</td>
+                                <td class="calificacion">9.1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <div class="container">
+                <p>Todos los derechos reservados | Sergio Pg | eduMac 2018</p>
+            </div>
+        </footer>
+    </div>
+    <div id="js">
+        <script src="js/lib/jquery-3.2.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>
