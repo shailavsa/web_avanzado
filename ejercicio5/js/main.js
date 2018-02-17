@@ -13,5 +13,4 @@ $(function () {
         elResult.text('La masa muscular es de :' + result);
 
     })
-
 });
