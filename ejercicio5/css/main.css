@@ -24,14 +24,150 @@ img{
     max-width: 100%;
 }
 /* Header */
+.page-header{
+    background-color: rgb(211, 179, 0);
+    padding: 65px 0px;
+ }
+
+ .page-header h1{
+     font-size:  45px;
+     font-weight: 300;
+     color:#333;
+ }
 
 /* Nav */
 
+.page-nav{
+    background-color: #333;
+}
+.page-nav li{
+    display: inline-block;
+
+}
+ .page-nav a {
+    display: block; 
+    padding: 6px 12px;
+    font-weight: 300;
+    text-decoration: none;
+    color:#ccc;
+    transition:  all .3s;
+ }
+ .page-nav a:hover{
+     background-color: #555;
+     color:#fff;
+ }
 /* Main */
+.page-main{
+    padding:  65px 0;
+
+}
 
 /* Section */
 
+.page-section h2{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color:#333;
+
+}
+.page-section h2:first-child{
+    margin-top:0;
+
+}
 /* Footer */
+.page-footer{
+    background-color: #333;
+    padding: 16px 0;
+    text-align: center;
+
+}
+.page-footer p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color:#ccc;
+}
+/*form*/
+.form {
+    max-width: 30%;
+    margin: 0 auto 25px;
+    padding:  35px;
+    border: 1px solid #ccc;
+}
+.form__input{
+    margin-bottom: 20px;
+}
+.form__input-label{
+    
+    display:block;
+    margin-bottom:  2px;
+    font-size: 14px;
+    color: #333;
+    
+}
+.form__input-text{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #333;
+    border:1px solid #999;
+    outline: none;
+
+}
+.form__input-text:focus{
+    border-color: rgb(159, 202, 146);
+}
+.form_actions{
+    text-align: right;
+}
+
+.form__actions-btn{
+    border: 1px solid #ddd;
+    font-size:14px;
+    padding: 10px 16px;
+    background-color: #f2f2f2;
+    color: #555;
+    cursor: pointer;
+    transition:  all .3s;
+    outline: none;
+    
+}
+.form__actions-btn:hover {
+    background-color:#ddd;
+}
+.form__actions-calculate{
+    background-color: rgb(211, 179, 0);
+    border-color: transparent;
+}
+.form__actions-calculate:hover{
+    background-color: #e9c600;
+}
+.result{
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 35px;
+    border: 1px solid #ccc;
+
+}
+.result__text{
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+result__text span{
+    font-size: 20px;
+    font-weight: 300;
+}
+.result__text strong{
+    display: block;
+    font-size: 45px;
+    font-weight: 700;
+}
+.error{
+    border:1px solid #f00;
+}
 
 /* Helpers */
 .clearfix:before,

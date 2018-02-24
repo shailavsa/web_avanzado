@@ -12,7 +12,7 @@
     <div class="wrapper">
         <header class="page-header">
             <div class="container">
-                <h1>Template</h1>
+                <h1>Calcula tu masa muscular</h1>
             </div>
         </header>
         <nav class="page-nav">
@@ -38,23 +38,24 @@
                 <div class="container">
                     <h2>Calcular masa muscular </h2>
                     <form action="# " class="form">
-                        <div class="form_input">
-                            <label for="weight">Peso</label>
-                            <input id="weight" number="text" />
+                        <div class="form__input">
+                            <label for="weight" class="form__input-label">Peso</label>
+                            <input id="weight" type="number" name ="heigh" class="form__input-text"/>
                         </div>
-                        <div class="form_input">
-                            <label for="height">Altura</label>
-                            <input id="height" number="text" />
+                        <div class="form__input">
+                            <label for="height" class="form__input-label">Altura</label>
+                            <input id="height" type="number" name ="height" class="form__input-text"/>
                         </div>
 
                         <div class="form_actions">
-                            <button id="calculate">Calcular Masa Muscular</button>
+                            <input id="reset" type="reset" value="Borrar datos" class="form__actions-btn form__actions-reset"/>
+                            <input id="calculate" type="button" value="Calcular" class="form__actions-btn form__actions-calculate"/>
                         </div>
                     </form>
 
                     <div class="result">
-                        <p id="result" class="result_text">
-                            Aqui el resultado
+                        <p id="result" class="result__text">
+                       
                         </p>
                     </div>
                 </div>
